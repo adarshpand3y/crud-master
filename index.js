@@ -1,6 +1,6 @@
 const express = require('express');
 
-class RestCrud {
+class CrudController {
   constructor(model) {
     this.model = model;
     this.router = express.Router();
@@ -78,4 +78,4 @@ class RestCrud {
   }
 }
 
-module.exports = RestCrud;
+module.exports = CrudController;

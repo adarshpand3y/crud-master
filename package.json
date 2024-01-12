@@ -1,7 +1,7 @@
 {
-  "name": "crudcontroller",
+  "name": "rest-crud",
   "version": "1.0.0",
-  "description": "CrudController is a simple Node.js module that provides a base class for creating CRUD controllers with Express.js.",
+  "description": "RestCrud is a simple Node.js module that provides a base class for creating CRUD controllers with Express.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "crud",
     "rest api",
     "model",
-    "crudcontroller",
-    "crud-controller"
+    "rest-crud",
+    "restcrud"
   ],
   "author": "Adarsh Pandey",
   "license": "ISC",

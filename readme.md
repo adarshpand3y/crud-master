@@ -11,14 +11,14 @@ CrudController is a simple Node.js module that provides a base class for creatin
 
 const express = require('express');
 const mongoose = require('mongoose');
-const CrudController = require('crudcontroller');
-const Task = require('./models/Task'); // Task Model
+const restCrudController = require('rest-crud');
+const Task = require('./models/Task');
 
 // Connect to MongoDB (replace with your actual MongoDB connection string)
 mongoose.connect('mongodb://localhost:27017');
 
-// Instantiate the CrudController for tasks
-const TaskController = new CrudController(Task);
+// Instantiate the restCrudController for tasks
+const TaskController = new restCrudController(Task);
 
 // Create an Express app and use the TaskController's router
 const app = express();

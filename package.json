@@ -1,0 +1,22 @@
+{
+  "name": "crudcontroller",
+  "version": "1.0.0",
+  "description": "CrudController is a simple Node.js module that provides a base class for creating CRUD controllers with Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "rest api",
+    "model",
+    "crudcontroller",
+    "crud-controller"
+  ],
+  "author": "Adarsh Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
+  }
+}
